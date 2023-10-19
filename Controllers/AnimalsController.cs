@@ -27,6 +27,7 @@ namespace API.Controllers
             _mapper = mapper;
         }
 
+        //alo ahoho
         // GET: api/Animals
         [HttpGet("animals", Name = "GetAnimals")]
         [ProducesResponseType(200)]
